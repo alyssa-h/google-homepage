@@ -1,5 +1,4 @@
-<style>
-    a {
+a {
         color: #575757;
         text-decoration: none;
         font-family: arial, sans-serif;
@@ -8,8 +7,7 @@
         padding: 8px;
     }
 
-    li {
-       
+    li { 
         display: inline-block;
         padding: 3px;
     }
@@ -30,8 +28,13 @@
     input[type=text]{
         width: 475px;
         height: 42px;
-       border-radius: 27px;
-       border: 1px solid #dedede;
+        font-size: 15px;
+        text-indent: 48px;
+        border-radius: 22px;
+        box-shadow: 0px 0px 7px #dadada; 
+        border: 1px solid #dedddd;
+        background: url("images/search-icon.png") no-repeat;
+        background-position: 4% 50%;
     }
 
     input[type=submit]{
@@ -41,6 +44,16 @@
         padding-top: 10px;
         padding-bottom: 10px;
         color: #575757;
+    }
+
+    .micro-icon {
+        position: relative;
+        top: 10;
+        left: -40px;
+        display: inline-block;
+        width: 18px;
+        height: 27px;
+        background: url("Images/micro-icon.png") no-repeat;
     }
 
     .footer{
@@ -55,4 +68,3 @@
         font-size: 10pt;
         background-color:#f2f2f2;
     }
-</style>
